@@ -1,0 +1,10 @@
+---Input Logs----
+Pass:
+   + 1.c, 7.c, 15.c, 2.c, 14.c, 3.c, 10.c, 5.c, 9.c, 11.c, 8.c, 13.c, 0.c, 6.c
+Fails:
+   + 12.c ----> Reason: /home/baolong/Workspace/workspace/PROC/INPUT/12.c: In function ‘lcm’:
+/home/baolong/Workspace/workspace/PROC/INPUT/12.c:4:22: error: implicit declaration of function ‘gcd’ [-Werror=implicit-function-declaration]
+    4 |     return (a * b) / gcd(a, b);
+      |                      ^~~
+cc1: all warnings being treated as errors
+
