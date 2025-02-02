@@ -1,0 +1,112 @@
+---Input Logs----
+Pass:
+   + p73.c, p25.c, p83.c, p9.c, 1.c, p38.c, p16.c, p64.c, p78.c, p5.c, p6.c, p55.c, p28.c, p44.c, p67.c, p70.c, p61.c, p74.c, p52.c, p87.c, p79.c, p75.c, p99.c, p11.c, p15.c, p39.c, 7.c, p8.c, p80.c, p21.c, 15.c, p40.c, p60.c, p42.c, p81.c, p65.c, p71.c, p14.c, p77.c, p46.c, p29.c, p51.c, p66.c, p54.c, 2.c, p63.c, p32.c, 14.c, p33.c, 3.c, p18.c, p58.c, p1.c, p7.c, p23.c, p35.c, p37.c, p27.c, p34.c, 10.c, 5.c, p45.c, p22.c, p26.c, p76.c, p53.c, 9.c, p31.c, p2.c, p57.c, p24.c, p82.c, p56.c, p36.c, p68.c, p69.c, p59.c, 11.c, p50.c, p3.c, p72.c, p20.c, 8.c, 13.c, p4.c, p19.c, 0.c, p86.c, p47.c, p17.c, p88.c, p43.c, 6.c, p62.c, p49.c, p13.c
+Fails:
+   + p85.c ----> Reason: /home/baolong/Workspace/workspace/PROC/INPUT/p85.c:3:10: fatal error: sqlite3.h: No such file or directory
+    3 | #include <sqlite3.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+
+   + p10.c ----> Reason: /home/baolong/Workspace/workspace/PROC/INPUT/p10.c: In function ‘main’:
+/home/baolong/Workspace/workspace/PROC/INPUT/p10.c:12:5: error: implicit declaration of function ‘strcpy’ [-Werror=implicit-function-declaration]
+   12 |     strcpy(person1.name, "John");
+      |     ^~~~~~
+/home/baolong/Workspace/workspace/PROC/INPUT/p10.c:3:1: note: include ‘<string.h>’ or provide a declaration of ‘strcpy’
+    2 | #include <stdio.h>
+  +++ |+#include <string.h>
+    3 | 
+/home/baolong/Workspace/workspace/PROC/INPUT/p10.c:12:5: error: incompatible implicit declaration of built-in function ‘strcpy’ [-Werror=builtin-declaration-mismatch]
+   12 |     strcpy(person1.name, "John");
+      |     ^~~~~~
+/home/baolong/Workspace/workspace/PROC/INPUT/p10.c:12:5: note: include ‘<string.h>’ or provide a declaration of ‘strcpy’
+cc1: all warnings being treated as errors
+
+   + p100.c ----> Reason: /home/baolong/Workspace/workspace/PROC/INPUT/p100.c:3:10: fatal error: graphics.h: No such file or directory
+    3 | #include <graphics.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+
+   + p84.c ----> Reason: /home/baolong/Workspace/workspace/PROC/INPUT/p84.c:3:10: fatal error: SDL2/SDL.h: No such file or directory
+    3 | #include <SDL2/SDL.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+
+   + p96.c ----> Reason: /home/baolong/Workspace/workspace/PROC/INPUT/p96.c:3:10: fatal error: graphics.h: No such file or directory
+    3 | #include <graphics.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+
+   + p41.c ----> Reason: /home/baolong/Workspace/workspace/PROC/INPUT/p41.c: In function ‘main’:
+/home/baolong/Workspace/workspace/PROC/INPUT/p41.c:7:18: error: implicit declaration of function ‘system’ [-Werror=implicit-function-declaration]
+    7 |     int status = system("ls -l");
+      |                  ^~~~~~
+cc1: all warnings being treated as errors
+
+   + p92.c ----> Reason: /home/baolong/Workspace/workspace/PROC/INPUT/p92.c:3:10: fatal error: graphics.h: No such file or directory
+    3 | #include <graphics.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+
+   + p95.c ----> Reason: /home/baolong/Workspace/workspace/PROC/INPUT/p95.c:3:10: fatal error: graphics.h: No such file or directory
+    3 | #include <graphics.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+
+   + p48.c ----> Reason: /home/baolong/Workspace/workspace/PROC/INPUT/p48.c:6:10: fatal error: unittest.h: No such file or directory
+    6 | #include "unittest.h" // Assume unittest.h contains unit testing framework functions
+      |          ^~~~~~~~~~~~
+compilation terminated.
+
+   + p93.c ----> Reason: /home/baolong/Workspace/workspace/PROC/INPUT/p93.c:3:10: fatal error: graphics.h: No such file or directory
+    3 | #include <graphics.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+
+   + p91.c ----> Reason: /home/baolong/Workspace/workspace/PROC/INPUT/p91.c:3:10: fatal error: graphics.h: No such file or directory
+    3 | #include <graphics.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+
+   + p98.c ----> Reason: /home/baolong/Workspace/workspace/PROC/INPUT/p98.c:3:10: fatal error: graphics.h: No such file or directory
+    3 | #include <graphics.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+
+   + p89.c ----> Reason: /home/baolong/Workspace/workspace/PROC/INPUT/p89.c:3:10: fatal error: graphics.h: No such file or directory
+    3 | #include <graphics.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+
+   + p12.c ----> Reason: /home/baolong/Workspace/workspace/PROC/INPUT/p12.c: In function ‘main’:
+/home/baolong/Workspace/workspace/PROC/INPUT/p12.c:6:10: error: unused variable ‘ch’ [-Werror=unused-variable]
+    6 |     char ch;
+      |          ^~
+cc1: all warnings being treated as errors
+
+   + p94.c ----> Reason: /home/baolong/Workspace/workspace/PROC/INPUT/p94.c:3:10: fatal error: graphics.h: No such file or directory
+    3 | #include <graphics.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+
+   + 12.c ----> Reason: /home/baolong/Workspace/workspace/PROC/INPUT/12.c: In function ‘lcm’:
+/home/baolong/Workspace/workspace/PROC/INPUT/12.c:4:22: error: implicit declaration of function ‘gcd’ [-Werror=implicit-function-declaration]
+    4 |     return (a * b) / gcd(a, b);
+      |                      ^~~
+cc1: all warnings being treated as errors
+
+   + p30.c ----> Reason: /home/baolong/Workspace/workspace/PROC/INPUT/p30.c: In function ‘main’:
+/home/baolong/Workspace/workspace/PROC/INPUT/p30.c:28:19: error: unused variable ‘graph’ [-Werror=unused-variable]
+   28 |     struct Graph* graph = createGraph(MAX_VERTICES);
+      |                   ^~~~~
+cc1: all warnings being treated as errors
+
+   + p97.c ----> Reason: /home/baolong/Workspace/workspace/PROC/INPUT/p97.c:3:10: fatal error: graphics.h: No such file or directory
+    3 | #include <graphics.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+
+   + p90.c ----> Reason: /home/baolong/Workspace/workspace/PROC/INPUT/p90.c:3:10: fatal error: graphics.h: No such file or directory
+    3 | #include <graphics.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+
