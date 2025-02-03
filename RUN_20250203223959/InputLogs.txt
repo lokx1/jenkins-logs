@@ -1,0 +1,31 @@
+Found 15 .c file(s) in '/home/agent1/Workspace/workspace/Jenkins/INPUT':
+ - Checking syntax for: 9.c
+   -> Passed
+ - Checking syntax for: 6.c
+   -> Failed
+ - Checking syntax for: 12.c
+   -> Passed
+ - Checking syntax for: 15.c
+   -> Passed
+ - Checking syntax for: 5.c
+   -> Passed
+ - Checking syntax for: 13.c
+   -> Passed
+ - Checking syntax for: 10.c
+   -> Passed
+ - Checking syntax for: 0.c
+   -> Passed
+ - Checking syntax for: 3.c
+   -> Passed
+ - Checking syntax for: 7.c
+   -> Passed
+ - Checking syntax for: 14.c
+   -> Passed
+ - Checking syntax for: 11.c
+   -> Passed
+ - Checking syntax for: 8.c
+   -> Passed
+ - Checking syntax for: 2.c
+   -> Passed
+ - Checking syntax for: 1.c
+   -> Passed
