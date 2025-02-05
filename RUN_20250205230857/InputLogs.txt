@@ -1,0 +1,41 @@
+Found 20 .c file(s) in '/home/agent1/Workspace/workspace/Jenkins/INPUT':
+ - Checking syntax for: 1_p5_18.c
+   -> Passed
+ - Checking syntax for: 1_p2_8.c
+   -> Passed
+ - Checking syntax for: 1_p3_11.c
+   -> Passed
+ - Checking syntax for: 1_p5_20.c
+   -> Passed
+ - Checking syntax for: 1_p5_19.c
+   -> Passed
+ - Checking syntax for: 1_p4_13.c
+   -> Passed
+ - Checking syntax for: 1_p2_5.c
+   -> Passed
+ - Checking syntax for: 1_p3_10.c
+   -> Passed
+ - Checking syntax for: 1_p1_2.c
+   -> Passed
+ - Checking syntax for: 1_p3_12.c
+   -> Passed
+ - Checking syntax for: 1_p1_3.c
+   -> Passed
+ - Checking syntax for: 1_p5_17.c
+   -> Passed
+ - Checking syntax for: 1_p4_15.c
+   -> Passed
+ - Checking syntax for: 1_p1_4.c
+   -> Passed
+ - Checking syntax for: 1_p2_6.c
+   -> Passed
+ - Checking syntax for: 1_p4_14.c
+   -> Passed
+ - Checking syntax for: 1_p2_7.c
+   -> Passed
+ - Checking syntax for: 1_p3_9.c
+   -> Passed
+ - Checking syntax for: 1_p4_16.c
+   -> Passed
+ - Checking syntax for: 1_p1_1.c
+   -> Passed
