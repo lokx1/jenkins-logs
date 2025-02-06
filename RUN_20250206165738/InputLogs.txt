@@ -1,0 +1,46 @@
+Found 18 .c file(s) in '/home/agent1/Workspace/workspace/Jenkins/INPUT':
+ - Checking syntax for: p43.c
+   -> Passed
+ - Checking syntax for: p36.c
+   -> Passed
+ - Checking syntax for: p47.c
+   -> Passed
+ - Checking syntax for: p45.c
+   -> Passed
+ - Checking syntax for: p37.c
+   -> Passed
+ - Checking syntax for: p32.c
+   -> Passed
+ - Checking syntax for: p44.c
+   -> Passed
+ - Checking syntax for: p46.c
+   -> Passed
+ - Checking syntax for: p33.c
+   -> Passed
+ - Checking syntax for: p39.c
+   -> Passed
+ - Checking syntax for: p48.c
+   -> Failed: /home/agent1/Workspace/workspace/Jenkins/INPUT/p48.c:6:10: fatal error: unittest.h: No such file or directory
+    6 | #include "unittest.h" // Assume unittest.h contains unit testing framework functions
+      |          ^~~~~~~~~~~~
+compilation terminated.
+
+ - Checking syntax for: p42.c
+   -> Passed
+ - Checking syntax for: p34.c
+   -> Passed
+ - Checking syntax for: p35.c
+   -> Passed
+ - Checking syntax for: p38.c
+   -> Passed
+ - Checking syntax for: p31.c
+   -> Passed
+ - Checking syntax for: p41.c
+   -> Failed: /home/agent1/Workspace/workspace/Jenkins/INPUT/p41.c: In function ‘main’:
+/home/agent1/Workspace/workspace/Jenkins/INPUT/p41.c:7:18: error: implicit declaration of function ‘system’ [-Werror=implicit-function-declaration]
+    7 |     int status = system("ls -l");
+      |                  ^~~~~~
+cc1: all warnings being treated as errors
+
+ - Checking syntax for: p40.c
+   -> Passed
