@@ -1,0 +1,285 @@
+Found 100 .c file(s) in '/home/agent1/Workspace/workspace/Jenkins/INPUT':
+ - Checking syntax for: p28.c
+   -> Passed
+ - Checking syntax for: p11.c
+   -> Passed
+ - Checking syntax for: p58.c
+   -> Passed
+ - Checking syntax for: p1.c
+   -> Passed
+ - Checking syntax for: p29.c
+   -> Passed
+ - Checking syntax for: p43.c
+   -> Passed
+ - Checking syntax for: p54.c
+   -> Passed
+ - Checking syntax for: p84.c
+   -> Failed: /home/agent1/Workspace/workspace/Jenkins/INPUT/p84.c:3:10: fatal error: SDL2/SDL.h: No such file or directory
+    3 | #include <SDL2/SDL.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+
+ - Checking syntax for: p16.c
+   -> Passed
+ - Checking syntax for: p27.c
+   -> Passed
+ - Checking syntax for: p75.c
+   -> Passed
+ - Checking syntax for: p97.c
+   -> Failed: /home/agent1/Workspace/workspace/Jenkins/INPUT/p97.c:3:10: fatal error: graphics.h: No such file or directory
+    3 | #include <graphics.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+
+ - Checking syntax for: p71.c
+   -> Passed
+ - Checking syntax for: p36.c
+   -> Passed
+ - Checking syntax for: p50.c
+   -> Passed
+ - Checking syntax for: p15.c
+   -> Passed
+ - Checking syntax for: p72.c
+   -> Passed
+ - Checking syntax for: p49.c
+   -> Passed
+ - Checking syntax for: p47.c
+   -> Passed
+ - Checking syntax for: p13.c
+   -> Passed
+ - Checking syntax for: p79.c
+   -> Passed
+ - Checking syntax for: p92.c
+   -> Failed: /home/agent1/Workspace/workspace/Jenkins/INPUT/p92.c:3:10: fatal error: graphics.h: No such file or directory
+    3 | #include <graphics.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+
+ - Checking syntax for: p7.c
+   -> Passed
+ - Checking syntax for: p23.c
+   -> Passed
+ - Checking syntax for: p45.c
+   -> Passed
+ - Checking syntax for: p80.c
+   -> Passed
+ - Checking syntax for: p69.c
+   -> Passed
+ - Checking syntax for: p98.c
+   -> Failed: /home/agent1/Workspace/workspace/Jenkins/INPUT/p98.c:3:10: fatal error: graphics.h: No such file or directory
+    3 | #include <graphics.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+
+ - Checking syntax for: p62.c
+   -> Passed
+ - Checking syntax for: p30.c
+   -> Failed: /home/agent1/Workspace/workspace/Jenkins/INPUT/p30.c: In function ‘main’:
+/home/agent1/Workspace/workspace/Jenkins/INPUT/p30.c:28:19: error: unused variable ‘graph’ [-Werror=unused-variable]
+   28 |     struct Graph* graph = createGraph(MAX_VERTICES);
+      |                   ^~~~~
+cc1: all warnings being treated as errors
+
+ - Checking syntax for: p37.c
+   -> Passed
+ - Checking syntax for: p60.c
+   -> Passed
+ - Checking syntax for: p88.c
+   -> Passed
+ - Checking syntax for: p32.c
+   -> Passed
+ - Checking syntax for: p44.c
+   -> Passed
+ - Checking syntax for: p91.c
+   -> Failed: /home/agent1/Workspace/workspace/Jenkins/INPUT/p91.c:3:10: fatal error: graphics.h: No such file or directory
+    3 | #include <graphics.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+
+ - Checking syntax for: p99.c
+   -> Passed
+ - Checking syntax for: p46.c
+   -> Passed
+ - Checking syntax for: p12.c
+   -> Failed: /home/agent1/Workspace/workspace/Jenkins/INPUT/p12.c: In function ‘main’:
+/home/agent1/Workspace/workspace/Jenkins/INPUT/p12.c:6:10: error: unused variable ‘ch’ [-Werror=unused-variable]
+    6 |     char ch;
+      |          ^~
+cc1: all warnings being treated as errors
+
+ - Checking syntax for: p9.c
+   -> Passed
+ - Checking syntax for: p74.c
+   -> Passed
+ - Checking syntax for: p24.c
+   -> Passed
+ - Checking syntax for: p95.c
+   -> Failed: /home/agent1/Workspace/workspace/Jenkins/INPUT/p95.c:3:10: fatal error: graphics.h: No such file or directory
+    3 | #include <graphics.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+
+ - Checking syntax for: p73.c
+   -> Passed
+ - Checking syntax for: p93.c
+   -> Failed: /home/agent1/Workspace/workspace/Jenkins/INPUT/p93.c:3:10: fatal error: graphics.h: No such file or directory
+    3 | #include <graphics.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+
+ - Checking syntax for: p94.c
+   -> Failed: /home/agent1/Workspace/workspace/Jenkins/INPUT/p94.c:3:10: fatal error: graphics.h: No such file or directory
+    3 | #include <graphics.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+
+ - Checking syntax for: p67.c
+   -> Passed
+ - Checking syntax for: p5.c
+   -> Passed
+ - Checking syntax for: p70.c
+   -> Passed
+ - Checking syntax for: p77.c
+   -> Passed
+ - Checking syntax for: p33.c
+   -> Passed
+ - Checking syntax for: p90.c
+   -> Failed: /home/agent1/Workspace/workspace/Jenkins/INPUT/p90.c:3:10: fatal error: graphics.h: No such file or directory
+    3 | #include <graphics.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+
+ - Checking syntax for: p26.c
+   -> Passed
+ - Checking syntax for: p21.c
+   -> Passed
+ - Checking syntax for: p63.c
+   -> Passed
+ - Checking syntax for: p39.c
+   -> Passed
+ - Checking syntax for: p51.c
+   -> Passed
+ - Checking syntax for: p82.c
+   -> Passed
+ - Checking syntax for: p61.c
+   -> Passed
+ - Checking syntax for: p83.c
+   -> Passed
+ - Checking syntax for: p2.c
+   -> Passed
+ - Checking syntax for: p64.c
+   -> Passed
+ - Checking syntax for: p10.c
+   -> Failed: /home/agent1/Workspace/workspace/Jenkins/INPUT/p10.c: In function ‘main’:
+/home/agent1/Workspace/workspace/Jenkins/INPUT/p10.c:12:5: error: implicit declaration of function ‘strcpy’ [-Werror=implicit-function-declaration]
+   12 |     strcpy(person1.name, "John");
+      |     ^~~~~~
+/home/agent1/Workspace/workspace/Jenkins/INPUT/p10.c:3:1: note: include ‘<string.h>’ or provide a declaration of ‘strcpy’
+    2 | #include <stdio.h>
+  +++ |+#include <string.h>
+    3 | 
+/home/agent1/Workspace/workspace/Jenkins/INPUT/p10.c:12:5: error: incompatible implicit declaration of built-in function ‘strcpy’ [-Werror=builtin-declaration-mismatch]
+   12 |     strcpy(person1.name, "John");
+      |     ^~~~~~
+/home/agent1/Workspace/workspace/Jenkins/INPUT/p10.c:12:5: note: include ‘<string.h>’ or provide a declaration of ‘strcpy’
+cc1: all warnings being treated as errors
+
+ - Checking syntax for: p3.c
+   -> Passed
+ - Checking syntax for: p17.c
+   -> Passed
+ - Checking syntax for: p87.c
+   -> Passed
+ - Checking syntax for: p14.c
+   -> Passed
+ - Checking syntax for: p100.c
+   -> Failed: /home/agent1/Workspace/workspace/Jenkins/INPUT/p100.c:3:10: fatal error: graphics.h: No such file or directory
+    3 | #include <graphics.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+
+ - Checking syntax for: p56.c
+   -> Passed
+ - Checking syntax for: p89.c
+   -> Failed: /home/agent1/Workspace/workspace/Jenkins/INPUT/p89.c:3:10: fatal error: graphics.h: No such file or directory
+    3 | #include <graphics.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+
+ - Checking syntax for: p48.c
+   -> Failed: /home/agent1/Workspace/workspace/Jenkins/INPUT/p48.c:6:10: fatal error: unittest.h: No such file or directory
+    6 | #include "unittest.h" // Assume unittest.h contains unit testing framework functions
+      |          ^~~~~~~~~~~~
+compilation terminated.
+
+ - Checking syntax for: p55.c
+   -> Passed
+ - Checking syntax for: p8.c
+   -> Passed
+ - Checking syntax for: p42.c
+   -> Passed
+ - Checking syntax for: p20.c
+   -> Passed
+ - Checking syntax for: p52.c
+   -> Passed
+ - Checking syntax for: p85.c
+   -> Failed: /home/agent1/Workspace/workspace/Jenkins/INPUT/p85.c:3:10: fatal error: sqlite3.h: No such file or directory
+    3 | #include <sqlite3.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+
+ - Checking syntax for: p4.c
+   -> Passed
+ - Checking syntax for: p57.c
+   -> Passed
+ - Checking syntax for: p53.c
+   -> Passed
+ - Checking syntax for: p78.c
+   -> Passed
+ - Checking syntax for: p34.c
+   -> Passed
+ - Checking syntax for: p76.c
+   -> Passed
+ - Checking syntax for: p96.c
+   -> Failed: /home/agent1/Workspace/workspace/Jenkins/INPUT/p96.c:3:10: fatal error: graphics.h: No such file or directory
+    3 | #include <graphics.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+
+ - Checking syntax for: p35.c
+   -> Passed
+ - Checking syntax for: p38.c
+   -> Passed
+ - Checking syntax for: p31.c
+   -> Passed
+ - Checking syntax for: p18.c
+   -> Passed
+ - Checking syntax for: p81.c
+   -> Passed
+ - Checking syntax for: p68.c
+   -> Passed
+ - Checking syntax for: p86.c
+   -> Passed
+ - Checking syntax for: p22.c
+   -> Passed
+ - Checking syntax for: p66.c
+   -> Passed
+ - Checking syntax for: p65.c
+   -> Passed
+ - Checking syntax for: p25.c
+   -> Passed
+ - Checking syntax for: p41.c
+   -> Failed: /home/agent1/Workspace/workspace/Jenkins/INPUT/p41.c: In function ‘main’:
+/home/agent1/Workspace/workspace/Jenkins/INPUT/p41.c:7:18: error: implicit declaration of function ‘system’ [-Werror=implicit-function-declaration]
+    7 |     int status = system("ls -l");
+      |                  ^~~~~~
+cc1: all warnings being treated as errors
+
+ - Checking syntax for: p40.c
+   -> Passed
+ - Checking syntax for: p6.c
+   -> Passed
+ - Checking syntax for: p19.c
+   -> Passed
+ - Checking syntax for: p59.c
+   -> Passed
